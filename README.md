@@ -22,28 +22,6 @@ This project builds an end-to-end pipeline that evaluates spoken grammar quality
 
 ⸻
 
-📁 Project Structure
-
-Grammar Scoring Engine from Voice Samples/
-│
-├── grammar_scoring_engine.py     # Main training + inference script
-├── dataset/
-│   ├── audios/
-│   │   ├── train/
-│   │   └── test/
-│   └── csvs/
-│       ├── train.csv
-│       └── test.csv
-│
-├── submission.csv                # Generated test predictions
-├── train_oof_predictions.csv     # Out-of-fold predictions
-├── scaler.joblib                 # Saved preprocessor
-├── final_lgb_model.txt           # Saved model (LightGBM)
-├── model_summary.txt             # Detailed performance report
-└── README.md
-
-
-⸻
 
 🚀 How It Works
 
